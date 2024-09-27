@@ -246,7 +246,7 @@ important ones are:
 -   A `while` statement must be labeled.
 
 -   Any statement following a `call`, a `return` or an `if` or
-    verb\|either\| statement that contains a labeled statement must be
+    `either` statement that contains a labeled statement must be
     labeled.
 
 -   A macro body and the body of a `with` statement may not contain
@@ -616,7 +616,7 @@ specific syntax for records.
 
 :   `[fld1 |-> e1, ..., fldn |-> en]`
 
-    constructs a record with fields $mathit{fld}_i$ holding values
+    constructs a record with fields $\mathit{fld}_i$ holding values
     $e_i$. For example,
     $$[\mathit{kind} \mapsto \textnormal{"request"},\
          \mathit{sndr} \mapsto p,\
